@@ -1,0 +1,31 @@
+[31mCMake Error at CMakeLists.txt:17 (find_package):
+  By not providing "FindTensorRT.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "TensorRT",
+  but CMake did not find one.
+
+  Could not find a package configuration file provided by "TensorRT" with any
+  of the following names:
+
+    TensorRTConfig.cmake
+    tensorrt-config.cmake
+
+  Add the installation prefix of "TensorRT" to CMAKE_PREFIX_PATH or set
+  "TensorRT_DIR" to a directory containing one of the above files.  If
+  "TensorRT" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile
+    if 'Visual Studio' in generator:
+TypeError: argument of type 'NoneType' is not iterable

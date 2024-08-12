@@ -1,0 +1,17 @@
+[1.205s] Invoking command in '/home/rain/pointpillars_ws/src/ros2_pointpillars': PYTHONPATH=/home/rain/pointpillars_ws/build/ros2_pointpillars/prefix_override:/home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_pointpillars build --build-base /home/rain/pointpillars_ws/build/ros2_pointpillars/build install --record /home/rain/pointpillars_ws/build/ros2_pointpillars/install.log --single-version-externally-managed install_data
+[1.711s] running egg_info
+[1.718s] writing manifest file '../../build/ros2_pointpillars/ros2_pointpillars.egg-info/SOURCES.txt'
+[1.718s] running build
+[1.718s] running build_py
+[1.719s] copying ros2_pointpillars/overlapping_lidar_points.py -> /home/rain/pointpillars_ws/build/ros2_pointpillars/build/lib/ros2_pointpillars
+[1.719s] running install
+[1.723s] running install_lib
+[1.724s] copying /home/rain/pointpillars_ws/build/ros2_pointpillars/build/lib/ros2_pointpillars/overlapping_lidar_points.py -> /home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages/ros2_pointpillars
+[1.726s] byte-compiling /home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages/ros2_pointpillars/overlapping_lidar_points.py to overlapping_lidar_points.cpython-310.pyc
+[1.727s] running install_data
+[1.727s] running install_egg_info
+[1.730s] removing '/home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages/ros2_pointpillars-0.0.0-py3.10.egg-info' (and everything under it)
+[1.731s] Copying ../../build/ros2_pointpillars/ros2_pointpillars.egg-info to /home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages/ros2_pointpillars-0.0.0-py3.10.egg-info
+[1.732s] running install_scripts
+[1.769s] writing list of installed files to '/home/rain/pointpillars_ws/build/ros2_pointpillars/install.log'
+[1.834s] Invoked command in '/home/rain/pointpillars_ws/src/ros2_pointpillars' returned '0': PYTHONPATH=/home/rain/pointpillars_ws/build/ros2_pointpillars/prefix_override:/home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ros2_pointpillars build --build-base /home/rain/pointpillars_ws/build/ros2_pointpillars/build install --record /home/rain/pointpillars_ws/build/ros2_pointpillars/install.log --single-version-externally-managed install_data

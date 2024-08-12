@@ -1,0 +1,24 @@
+/pointcloud_processor:
+  ros__parameters:
+    bbox_iou_threshold: 0.1
+    bbox_queue_len: 200
+    max_num_points : 16
+    max_num_pillars: 40000
+    marker_queue_size : 1000
+    dbscan_eps : 0.5
+    dbscan_min_samples : 3
+    pcd_limit_range:
+    - -69.12
+    - -69.12
+    - -3.0
+    - 69.12
+    - 69.12
+    - 5.0
+    voxel_size:
+    - 0.32
+    - 0.32
+    - 8.0
+    pointcloud_topic: /filtered_pointcloud
+    trt_engine: /home/rain/PointPillars/pretrained/model_class2.trt
+    use_sim_time: false
+

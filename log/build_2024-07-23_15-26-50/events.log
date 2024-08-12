@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.000463] (ros2_pointpillars) JobQueued: {'identifier': 'ros2_pointpillars', 'dependencies': OrderedDict()}
+[0.000823] (ros2_pointpillars) JobStarted: {'identifier': 'ros2_pointpillars'}
+[0.099589] (-) TimerEvent: {}
+[0.200102] (-) TimerEvent: {}
+[0.300582] (-) TimerEvent: {}
+[0.401056] (-) TimerEvent: {}
+[0.478679] (ros2_pointpillars) JobEnded: {'identifier': 'ros2_pointpillars', 'rc': 0}
+[0.480952] (-) EventReactorShutdown: {}
