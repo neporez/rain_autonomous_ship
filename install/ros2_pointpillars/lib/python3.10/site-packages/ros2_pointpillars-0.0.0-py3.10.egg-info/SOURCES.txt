@@ -9,6 +9,7 @@ setup.py
 ../../build/ros2_pointpillars/ros2_pointpillars.egg-info/top_level.txt
 ../../build/ros2_pointpillars/ros2_pointpillars.egg-info/zip-safe
 launch/pointpillars_ndt.launch.py
+param/pointpillars_param.yaml
 resource/ros2_pointpillars
 ros2_pointpillars/__init__.py
 ros2_pointpillars/overlapping_lidar_points.py

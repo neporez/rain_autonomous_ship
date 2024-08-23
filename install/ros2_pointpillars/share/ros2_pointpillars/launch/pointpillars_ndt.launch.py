@@ -5,6 +5,10 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 from ament_index_python.packages import get_package_share_directory
 import os
 
+from launch.substitutions import LaunchConfiguration
+from launch.actions import DeclareLaunchArgument
+
+
 def generate_launch_description():
     
     pointpillars_params = os.path.join(
@@ -12,6 +16,13 @@ def generate_launch_description():
         'param',
         'pointpillars_param.yaml'
     )
+
+    params_declare = DeclareLaunchArgument(
+        'params_file',
+        default_value=pointpillars_params,
+        description='Path to the ROS2 parameters file to use'
+    )
+
 
     ndt_lidarslam_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource([
@@ -26,9 +37,9 @@ def generate_launch_description():
     pointpillars_node = Node(
         package='ros2_pointpillars',
         executable='pointcloud_publisher_ndt',
-        name='pointpillars',
+        name='pointcloud_processor',
         output='screen',
-        parameters=[pointpillars_params]
+        parameters=[LaunchConfiguration('params_file')]
     )
 
     pointcloud_filter_node = Node(
@@ -38,6 +49,7 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
+        params_declare,
         ndt_lidarslam_launch,
         pointpillars_node,
         pointcloud_filter_node

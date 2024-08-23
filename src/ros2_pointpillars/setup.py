@@ -12,6 +12,7 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob(os.path.join('launch', '*launch.[pxy][yma]*'))),
+        (os.path.join('share', package_name, 'param'), glob(os.path.join('param', '*.yaml'))),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

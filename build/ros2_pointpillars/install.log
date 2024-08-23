@@ -29,6 +29,7 @@
 /home/rain/pointpillars_ws/install/ros2_pointpillars/share/ament_index/resource_index/packages/ros2_pointpillars
 /home/rain/pointpillars_ws/install/ros2_pointpillars/share/ros2_pointpillars/package.xml
 /home/rain/pointpillars_ws/install/ros2_pointpillars/share/ros2_pointpillars/launch/pointpillars_ndt.launch.py
+/home/rain/pointpillars_ws/install/ros2_pointpillars/share/ros2_pointpillars/param/pointpillars_param.yaml
 /home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages/ros2_pointpillars-0.0.0-py3.10.egg-info/entry_points.txt
 /home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages/ros2_pointpillars-0.0.0-py3.10.egg-info/zip-safe
 /home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages/ros2_pointpillars-0.0.0-py3.10.egg-info/PKG-INFO

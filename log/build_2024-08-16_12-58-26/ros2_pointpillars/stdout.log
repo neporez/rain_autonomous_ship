@@ -1,0 +1,18 @@
+running egg_info
+writing manifest file '../../build/ros2_pointpillars/ros2_pointpillars.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ros2_pointpillars/util/dbscan.py -> /home/rain/pointpillars_ws/build/ros2_pointpillars/build/lib/ros2_pointpillars/util
+copying ros2_pointpillars/util/iou_3d_utils.py -> /home/rain/pointpillars_ws/build/ros2_pointpillars/build/lib/ros2_pointpillars/util
+running install
+running install_lib
+copying /home/rain/pointpillars_ws/build/ros2_pointpillars/build/lib/ros2_pointpillars/util/dbscan.py -> /home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages/ros2_pointpillars/util
+copying /home/rain/pointpillars_ws/build/ros2_pointpillars/build/lib/ros2_pointpillars/util/iou_3d_utils.py -> /home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages/ros2_pointpillars/util
+byte-compiling /home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages/ros2_pointpillars/util/dbscan.py to dbscan.cpython-310.pyc
+byte-compiling /home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages/ros2_pointpillars/util/iou_3d_utils.py to iou_3d_utils.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages/ros2_pointpillars-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ros2_pointpillars/ros2_pointpillars.egg-info to /home/rain/pointpillars_ws/install/ros2_pointpillars/lib/python3.10/site-packages/ros2_pointpillars-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/rain/pointpillars_ws/build/ros2_pointpillars/install.log'

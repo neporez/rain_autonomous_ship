@@ -37,7 +37,7 @@ class PointPillars():
                  voxel_size=[0.32,0.32,8],
                  point_cloud_range=[-69.12, -69.12, -3.0, 69.12, 69.12, 5.0],
                  max_num_points=16,
-                 max_num_pillars = 40000,
+                 max_num_pillars=40000,
                  engine_path=None) :
         
         

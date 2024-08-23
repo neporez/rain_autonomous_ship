@@ -14,7 +14,7 @@ import os
 import math
 import time
 
-model_path = "/home/rain/PointPillars"
+model_path = "/home/rain/PointPillars_train"
 sys.path.append(model_path)
 
 from utils import setup_seed, read_points, keep_bbox_from_lidar_range, vis_pc
@@ -42,13 +42,14 @@ class PointCloudProcessor(Node):
         self.timer = self.create_timer(0.01, self.timer_callback)
 
         self.CLASSES = {
-            'boat': 0,    
+            'boat': 0,
+            'frontline' : 1   
         }
         self.class_names = list(self.CLASSES.keys())
 
         self.pcd_limit_range = np.array([-69.12, -69.12, -3.0, 69.12, 69.12, 5.0], dtype=np.float32)
         
-        self.model = PointPillars(nclasses=1, voxel_size=[0.32,0.32,8], point_cloud_range=[-69.12, -69.12, -3, 69.12, 69.12, 5], max_num_points=16).cuda()
+        self.model = PointPillars(nclasses=2, voxel_size=[0.32,0.32,8], point_cloud_range=[-69.12, -69.12, -3, 69.12, 69.12, 5], max_num_points=16).cuda()
         self.model.load_state_dict(torch.load(self.ckpt))
 
         # self.model_pre = PointPillarsPre(point_cloud_range=[-69.12, -69.12, -3, 69.12, 69.12, 5],voxel_size=[0.32,0.32,4]).cuda()
@@ -192,7 +193,7 @@ class PointCloudProcessor(Node):
     def get_color_for_label(self, label):
         colors = [
             ColorRGBA(r=1.0, g=0.0, b=0.0, a=0.3),  # Pedestrian: Red
-            # ColorRGBA(r=0.0, g=1.0, b=0.0, a=0.3),  # Cyclist: Green
+            ColorRGBA(r=0.0, g=1.0, b=0.0, a=0.3),  # Cyclist: Green
             # ColorRGBA(r=0.0, g=0.0, b=1.0, a=0.3),  # Car: Blue
         ]
         return colors[int(label)]
