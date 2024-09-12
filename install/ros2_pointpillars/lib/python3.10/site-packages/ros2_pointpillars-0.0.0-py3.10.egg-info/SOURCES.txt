@@ -19,11 +19,13 @@ ros2_pointpillars/pointcloud_filter.py
 ros2_pointpillars/pointcloud_publisher.py
 ros2_pointpillars/pointcloud_publisher_livox.py
 ros2_pointpillars/pointcloud_publisher_ndt.py
+ros2_pointpillars/top_view_marker.py
 ros2_pointpillars/model/__init__.py
 ros2_pointpillars/model/model_trt.py
 ros2_pointpillars/util/__init__.py
 ros2_pointpillars/util/dbscan.py
 ros2_pointpillars/util/iou_3d_utils.py
+ros2_pointpillars/util/parking_point_generator.py
 ros2_pointpillars/util/pcd_process.py
 test/test_copyright.py
 test/test_flake8.py

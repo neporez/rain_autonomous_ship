@@ -19,6 +19,6 @@
     - 0.32
     - 8.0
     pointcloud_topic: /filtered_pointcloud # PointPillars Model에 들어가는 Pointcloud2 topic name
-    trt_engine: /home/rain/PointPillars/pretrained/model_0816.trt # TensorRT engine path
+    trt_engine: /home/rain/PointPillars/pretrained/model_repvgg_300.trt # TensorRT engine path
     use_sim_time: false
 

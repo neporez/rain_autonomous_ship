@@ -6,4 +6,5 @@ pointcloud_filter = ros2_pointpillars.pointcloud_filter:main
 pointcloud_publisher = ros2_pointpillars.pointcloud_publisher:main
 pointcloud_publisher_livox = ros2_pointpillars.pointcloud_publisher_livox:main
 pointcloud_publisher_ndt = ros2_pointpillars.pointcloud_publisher_ndt:main
+top_view_marker = ros2_pointpillars.top_view_marker:main
 

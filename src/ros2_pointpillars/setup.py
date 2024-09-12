@@ -29,7 +29,8 @@ setup(
             'overlapping_lidar_points = ros2_pointpillars.overlapping_lidar_points:main',
             'pointcloud_publisher_ndt = ros2_pointpillars.pointcloud_publisher_ndt:main',
             'pointcloud_bin2topic = ros2_pointpillars.pointcloud_bin2topic:main',
-            'pointcloud_filter = ros2_pointpillars.pointcloud_filter:main'
+            'pointcloud_filter = ros2_pointpillars.pointcloud_filter:main',
+            'top_view_marker = ros2_pointpillars.top_view_marker:main'
         ],
     },
 )

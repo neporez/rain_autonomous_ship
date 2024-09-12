@@ -41,7 +41,7 @@ class HostDeviceMem(object):
 
 class PointCloudProcessor(Node):
     def __init__(self):
-        super().__init__('pointcloud_processor')
+        super().__init__('pointcloud_processor2')
         
         self.declare_parameter('trt_engine', '/home/rain/PointPillars/pretrained/model.trt')
 
