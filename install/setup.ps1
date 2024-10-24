@@ -24,8 +24,6 @@ function _colcon_prefix_chain_powershell_source_script {
 # source chained prefixes
 _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/rain/ws_livox/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/rain/lidar_segmentation_ws/install\local_setup.ps1"
-_colcon_prefix_chain_powershell_source_script "/home/rain/turtlebot4_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/rain/ndt_ws/install\local_setup.ps1"
 
 # source this prefix

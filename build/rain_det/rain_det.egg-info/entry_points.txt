@@ -1,0 +1,7 @@
+[console_scripts]
+bbox_cluster = rain_det.bbox_cluster:main
+laserscan_map = rain_det.laserscan_map:main
+marker_and_parking_point_visualizer = rain_det.marker_and_parking_point_visualizer:main
+pointcloud_filter = rain_det.pointcloud_filter:main
+pointcloud_object_detector = rain_det.pointcloud_object_detector:main
+

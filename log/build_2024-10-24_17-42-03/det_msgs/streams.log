@@ -1,0 +1,241 @@
+[0.019s] Invoking command in '/home/rain/pointpillars_ws/build/det_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rain/pointpillars_ws/install/rain_project_autonomous_ship:/home/rain/pointpillars_ws/install/rain_det:/opt/ros/humble /usr/bin/cmake --build /home/rain/pointpillars_ws/build/det_msgs -- -j12 -l12
+[0.058s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.296s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.312s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.410s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.996s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.517s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.230s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.284s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.333s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.334s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.334s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[2.427s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.441s] -- Added test 'lint_cmake' to check CMake code style
+[2.442s] -- Added test 'xmllint' to check XML markup files
+[2.444s] -- Configuring done
+[2.495s] -- Generating done
+[2.500s] -- Build files have been written to: /home/rain/pointpillars_ws/build/det_msgs
+[2.547s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.566s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.584s] [  5%] Built target ament_cmake_python_copy_det_msgs
+[3.046s] running egg_info
+[3.054s] writing manifest file 'det_msgs.egg-info/SOURCES.txt'
+[3.102s] [35m[1mConsolidate compiler generated dependencies of target det_msgs__rosidl_generator_c[0m
+[3.103s] [  5%] Built target det_msgs__cpp
+[3.120s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.121s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.121s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.123s] [ 17%] [32mBuilding C object CMakeFiles/det_msgs__rosidl_generator_c.dir/rosidl_generator_c/det_msgs/msg/detail/detected_objects__functions.c.o[0m
+[3.123s] [ 17%] [32mBuilding C object CMakeFiles/det_msgs__rosidl_generator_c.dir/rosidl_generator_c/det_msgs/msg/detail/clustered_detected_objects__functions.c.o[0m
+[3.123s] [ 17%] Built target ament_cmake_python_build_det_msgs_egg
+[3.210s] [ 20%] [32m[1mLinking C shared library libdet_msgs__rosidl_generator_c.so[0m
+[3.272s] [ 20%] Built target det_msgs__rosidl_generator_c
+[3.288s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.289s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.289s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.613s] [35m[1mConsolidate compiler generated dependencies of target det_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.638s] [35m[1mConsolidate compiler generated dependencies of target det_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.642s] [ 33%] [32mBuilding CXX object CMakeFiles/det_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/det_msgs/msg/detail/detected_objects__type_support.cpp.o[0m
+[3.642s] [ 33%] [32mBuilding CXX object CMakeFiles/det_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/det_msgs/msg/detail/clustered_detected_objects__type_support.cpp.o[0m
+[3.643s] [35m[1mConsolidate compiler generated dependencies of target det_msgs__rosidl_typesupport_cpp[0m
+[3.667s] [ 38%] [32mBuilding CXX object CMakeFiles/det_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/det_msgs/msg/detail/dds_fastrtps/detected_objects__type_support.cpp.o[0m
+[3.667s] [ 38%] [32mBuilding CXX object CMakeFiles/det_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/det_msgs/msg/detected_objects__type_support.cpp.o[0m
+[3.678s] [ 41%] [32mBuilding CXX object CMakeFiles/det_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/det_msgs/msg/detail/dds_fastrtps/clustered_detected_objects__type_support.cpp.o[0m
+[3.686s] [ 43%] [32mBuilding CXX object CMakeFiles/det_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/det_msgs/msg/clustered_detected_objects__type_support.cpp.o[0m
+[3.759s] [35m[1mConsolidate compiler generated dependencies of target det_msgs__rosidl_typesupport_c[0m
+[3.788s] [ 48%] [32mBuilding CXX object CMakeFiles/det_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/det_msgs/msg/clustered_detected_objects__type_support.cpp.o[0m
+[3.789s] [ 48%] [32mBuilding CXX object CMakeFiles/det_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/det_msgs/msg/detected_objects__type_support.cpp.o[0m
+[3.795s] [35m[1mConsolidate compiler generated dependencies of target det_msgs__rosidl_typesupport_introspection_c[0m
+[3.810s] [35m[1mConsolidate compiler generated dependencies of target det_msgs__rosidl_typesupport_fastrtps_c[0m
+[3.826s] [ 51%] [32mBuilding C object CMakeFiles/det_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/det_msgs/msg/detail/detected_objects__type_support.c.o[0m
+[3.827s] [ 53%] [32mBuilding C object CMakeFiles/det_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/det_msgs/msg/detail/clustered_detected_objects__type_support.c.o[0m
+[3.833s] [ 56%] [32mBuilding CXX object CMakeFiles/det_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/det_msgs/msg/detail/clustered_detected_objects__type_support_c.cpp.o[0m
+[3.839s] [ 58%] [32mBuilding CXX object CMakeFiles/det_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/det_msgs/msg/detail/detected_objects__type_support_c.cpp.o[0m
+[3.842s] [ 61%] [32m[1mLinking CXX shared library libdet_msgs__rosidl_typesupport_c.so[0m
+[3.904s] [ 61%] Built target det_msgs__rosidl_typesupport_c
+[3.909s] [ 64%] [32m[1mLinking C shared library libdet_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.967s] [ 64%] Built target det_msgs__rosidl_typesupport_introspection_c
+[4.139s] [ 66%] [32m[1mLinking CXX shared library libdet_msgs__rosidl_typesupport_cpp.so[0m
+[4.196s] [ 66%] Built target det_msgs__rosidl_typesupport_cpp
+[4.363s] [ 69%] [32m[1mLinking CXX shared library libdet_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.436s] [ 71%] [32m[1mLinking CXX shared library libdet_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.489s] [ 71%] Built target det_msgs__rosidl_typesupport_fastrtps_c
+[4.495s] [ 74%] [32m[1mLinking CXX shared library libdet_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.544s] [ 74%] Built target det_msgs__rosidl_typesupport_introspection_cpp
+[4.614s] [ 74%] Built target det_msgs__rosidl_typesupport_fastrtps_cpp
+[4.656s] [ 74%] Built target det_msgs
+[4.704s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.449s] [ 76%] Built target det_msgs__py
+[5.473s] [35m[1mConsolidate compiler generated dependencies of target det_msgs__rosidl_generator_py[0m
+[5.499s] [ 82%] [32mBuilding C object CMakeFiles/det_msgs__rosidl_generator_py.dir/rosidl_generator_py/det_msgs/msg/_clustered_detected_objects_s.c.o[0m
+[5.499s] [ 82%] [32mBuilding C object CMakeFiles/det_msgs__rosidl_generator_py.dir/rosidl_generator_py/det_msgs/msg/_detected_objects_s.c.o[0m
+[5.703s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/det_msgs/libdet_msgs__rosidl_generator_py.so[0m
+[5.782s] [ 84%] Built target det_msgs__rosidl_generator_py
+[5.800s] [35m[1mConsolidate compiler generated dependencies of target det_msgs__rosidl_typesupport_c__pyext[0m
+[5.800s] [35m[1mConsolidate compiler generated dependencies of target det_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.800s] [35m[1mConsolidate compiler generated dependencies of target det_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[5.825s] [ 89%] [32mBuilding C object CMakeFiles/det_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/det_msgs/_det_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.825s] [ 89%] [32mBuilding C object CMakeFiles/det_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/det_msgs/_det_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.826s] [ 92%] [32mBuilding C object CMakeFiles/det_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/det_msgs/_det_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.972s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/det_msgs/det_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[5.977s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/det_msgs/det_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[5.978s] [100%] [32m[1mLinking C shared library rosidl_generator_py/det_msgs/det_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[6.034s] [100%] Built target det_msgs__rosidl_typesupport_c__pyext
+[6.041s] [100%] Built target det_msgs__rosidl_typesupport_introspection_c__pyext
+[6.043s] [100%] Built target det_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.066s] Invoked command in '/home/rain/pointpillars_ws/build/det_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rain/pointpillars_ws/install/rain_project_autonomous_ship:/home/rain/pointpillars_ws/install/rain_det:/opt/ros/humble /usr/bin/cmake --build /home/rain/pointpillars_ws/build/det_msgs -- -j12 -l12
+[6.235s] Invoking command in '/home/rain/pointpillars_ws/build/det_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rain/pointpillars_ws/install/rain_project_autonomous_ship:/home/rain/pointpillars_ws/install/rain_det:/opt/ros/humble /usr/bin/cmake --install /home/rain/pointpillars_ws/build/det_msgs
+[6.248s] -- Install configuration: ""
+[6.249s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/ament_index/resource_index/rosidl_interfaces/det_msgs
+[6.249s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs
+[6.249s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg
+[6.250s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.250s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/clustered_detected_objects.h
+[6.250s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail
+[6.251s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/detected_objects__functions.c
+[6.251s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/detected_objects__type_support.h
+[6.251s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/detected_objects__struct.h
+[6.251s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/clustered_detected_objects__functions.h
+[6.252s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/clustered_detected_objects__struct.h
+[6.252s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/detected_objects__functions.h
+[6.252s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/clustered_detected_objects__type_support.h
+[6.253s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/clustered_detected_objects__functions.c
+[6.253s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detected_objects.h
+[6.253s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/environment/library_path.sh
+[6.253s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/environment/library_path.dsv
+[6.254s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_generator_c.so
+[6.254s] -- Set runtime path of "/home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_generator_c.so" to ""
+[6.254s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs
+[6.255s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg
+[6.255s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail
+[6.255s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/clustered_detected_objects__rosidl_typesupport_fastrtps_c.h
+[6.255s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/detected_objects__rosidl_typesupport_fastrtps_c.h
+[6.255s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.255s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_typesupport_fastrtps_c.so
+[6.255s] -- Set runtime path of "/home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[6.255s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs
+[6.255s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg
+[6.256s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.256s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail
+[6.256s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/detected_objects__type_support.c
+[6.256s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/detected_objects__rosidl_typesupport_introspection_c.h
+[6.256s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/clustered_detected_objects__rosidl_typesupport_introspection_c.h
+[6.256s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/clustered_detected_objects__type_support.c
+[6.256s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_typesupport_introspection_c.so
+[6.256s] -- Set runtime path of "/home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_typesupport_introspection_c.so" to ""
+[6.257s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_typesupport_c.so
+[6.257s] -- Set runtime path of "/home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_typesupport_c.so" to ""
+[6.258s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs
+[6.258s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg
+[6.258s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detected_objects.hpp
+[6.258s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail
+[6.259s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/detected_objects__builder.hpp
+[6.259s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/detected_objects__traits.hpp
+[6.259s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/clustered_detected_objects__builder.hpp
+[6.259s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/clustered_detected_objects__traits.hpp
+[6.259s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/clustered_detected_objects__struct.hpp
+[6.259s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/detected_objects__struct.hpp
+[6.259s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/clustered_detected_objects.hpp
+[6.260s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs
+[6.260s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg
+[6.260s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail
+[6.260s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/dds_fastrtps
+[6.260s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/detected_objects__rosidl_typesupport_fastrtps_cpp.hpp
+[6.260s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/clustered_detected_objects__rosidl_typesupport_fastrtps_cpp.hpp
+[6.260s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.260s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.261s] -- Set runtime path of "/home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.261s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs
+[6.261s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg
+[6.261s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail
+[6.262s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/detected_objects__rosidl_typesupport_introspection_cpp.hpp
+[6.262s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/detected_objects__type_support.cpp
+[6.262s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/clustered_detected_objects__rosidl_typesupport_introspection_cpp.hpp
+[6.263s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/include/det_msgs/det_msgs/msg/detail/clustered_detected_objects__type_support.cpp
+[6.263s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_typesupport_introspection_cpp.so
+[6.263s] -- Set runtime path of "/home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[6.263s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_typesupport_cpp.so
+[6.264s] -- Set runtime path of "/home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_typesupport_cpp.so" to ""
+[6.264s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/environment/pythonpath.sh
+[6.264s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/environment/pythonpath.dsv
+[6.265s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs-0.0.0-py3.10.egg-info
+[6.265s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[6.265s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.266s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[6.266s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.266s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs
+[6.266s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/_det_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.267s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/_det_msgs_s.ep.rosidl_typesupport_c.c
+[6.267s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/det_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.267s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/msg
+[6.267s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/msg/_detected_objects_s.c
+[6.268s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/msg/_clustered_detected_objects.py
+[6.268s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/msg/_detected_objects.py
+[6.268s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/msg/__init__.py
+[6.268s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/msg/_clustered_detected_objects_s.c
+[6.269s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/_det_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.269s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/libdet_msgs__rosidl_generator_py.so
+[6.269s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/det_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.269s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/__init__.py
+[6.270s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/det_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.331s] Listing '/home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs'...
+[6.331s] Compiling '/home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/__init__.py'...
+[6.331s] Listing '/home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/msg'...
+[6.332s] Compiling '/home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/msg/__init__.py'...
+[6.332s] Compiling '/home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/msg/_clustered_detected_objects.py'...
+[6.332s] Compiling '/home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/msg/_detected_objects.py'...
+[6.339s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/det_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.340s] -- Set runtime path of "/home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/det_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[6.340s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/det_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.340s] -- Set runtime path of "/home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/det_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[6.341s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/det_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.341s] -- Set runtime path of "/home/rain/pointpillars_ws/install/det_msgs/local/lib/python3.10/dist-packages/det_msgs/det_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[6.341s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_generator_py.so
+[6.342s] -- Set runtime path of "/home/rain/pointpillars_ws/install/det_msgs/lib/libdet_msgs__rosidl_generator_py.so" to ""
+[6.342s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/msg/DetectedObjects.idl
+[6.342s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/msg/ClusteredDetectedObjects.idl
+[6.343s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/msg/DetectedObjects.msg
+[6.343s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/msg/ClusteredDetectedObjects.msg
+[6.343s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/ament_index/resource_index/package_run_dependencies/det_msgs
+[6.344s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/ament_index/resource_index/parent_prefix_path/det_msgs
+[6.344s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/environment/ament_prefix_path.sh
+[6.344s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/environment/ament_prefix_path.dsv
+[6.344s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/environment/path.sh
+[6.345s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/environment/path.dsv
+[6.345s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/local_setup.bash
+[6.345s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/local_setup.sh
+[6.346s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/local_setup.zsh
+[6.346s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/local_setup.dsv
+[6.346s] -- Installing: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/package.dsv
+[6.347s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/ament_index/resource_index/packages/det_msgs
+[6.347s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/export_det_msgs__rosidl_generator_cExport.cmake
+[6.347s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/export_det_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.348s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/export_det_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.348s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/export_det_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.348s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/det_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.348s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/det_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.348s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/det_msgs__rosidl_typesupport_cExport.cmake
+[6.349s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/det_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.349s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/export_det_msgs__rosidl_generator_cppExport.cmake
+[6.349s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/export_det_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.350s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/export_det_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.350s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/det_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.350s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/det_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.350s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/det_msgs__rosidl_typesupport_cppExport.cmake
+[6.351s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/det_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.352s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/export_det_msgs__rosidl_generator_pyExport.cmake
+[6.353s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/export_det_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.355s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/rosidl_cmake-extras.cmake
+[6.355s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.355s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.355s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.355s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.356s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.356s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.356s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/det_msgsConfig.cmake
+[6.357s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/cmake/det_msgsConfig-version.cmake
+[6.357s] -- Up-to-date: /home/rain/pointpillars_ws/install/det_msgs/share/det_msgs/package.xml
+[6.358s] Invoked command in '/home/rain/pointpillars_ws/build/det_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rain/pointpillars_ws/install/rain_project_autonomous_ship:/home/rain/pointpillars_ws/install/rain_det:/opt/ros/humble /usr/bin/cmake --install /home/rain/pointpillars_ws/build/det_msgs

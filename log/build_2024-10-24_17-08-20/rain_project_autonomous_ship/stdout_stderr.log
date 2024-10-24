@@ -1,0 +1,13 @@
+running egg_info
+writing manifest file '../../build/rain_project_autonomous_ship/rain_project_autonomous_ship.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying param/rain_project_autonomous_ship_param.yaml -> /home/rain/pointpillars_ws/install/rain_project_autonomous_ship/share/rain_project_autonomous_ship/param
+running install_egg_info
+removing '/home/rain/pointpillars_ws/install/rain_project_autonomous_ship/lib/python3.10/site-packages/rain_project_autonomous_ship-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/rain_project_autonomous_ship/rain_project_autonomous_ship.egg-info to /home/rain/pointpillars_ws/install/rain_project_autonomous_ship/lib/python3.10/site-packages/rain_project_autonomous_ship-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/rain/pointpillars_ws/build/rain_project_autonomous_ship/install.log'

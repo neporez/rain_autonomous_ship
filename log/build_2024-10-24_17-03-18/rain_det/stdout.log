@@ -1,0 +1,57 @@
+running egg_info
+creating ../../build/rain_det/rain_det.egg-info
+writing manifest file '../../build/rain_det/rain_det.egg-info/SOURCES.txt'
+writing manifest file '../../build/rain_det/rain_det.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rain/pointpillars_ws/build/rain_det/build
+creating /home/rain/pointpillars_ws/build/rain_det/build/lib
+creating /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det
+copying rain_det/bbox_cluster.py -> /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det
+copying rain_det/pointcloud_filter.py -> /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det
+copying rain_det/pointcloud_object_detector.py -> /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det
+copying rain_det/__init__.py -> /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det
+creating /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/util
+copying rain_det/util/dbscan.py -> /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/util
+copying rain_det/util/pcd_process.py -> /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/util
+copying rain_det/util/__init__.py -> /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/util
+creating /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/model
+copying rain_det/model/model_trt.py -> /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/model
+copying rain_det/model/__init__.py -> /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/model
+running install
+running install_lib
+creating /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det
+copying /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/bbox_cluster.py -> /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det
+creating /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/util
+copying /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/util/dbscan.py -> /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/util
+copying /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/util/pcd_process.py -> /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/util
+copying /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/util/__init__.py -> /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/util
+copying /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/pointcloud_filter.py -> /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det
+copying /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/pointcloud_object_detector.py -> /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det
+creating /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/model
+copying /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/model/model_trt.py -> /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/model
+copying /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/model/__init__.py -> /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/model
+copying /home/rain/pointpillars_ws/build/rain_det/build/lib/rain_det/__init__.py -> /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det
+byte-compiling /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/bbox_cluster.py to bbox_cluster.cpython-310.pyc
+byte-compiling /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/util/dbscan.py to dbscan.cpython-310.pyc
+byte-compiling /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/util/pcd_process.py to pcd_process.cpython-310.pyc
+byte-compiling /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/util/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/pointcloud_filter.py to pointcloud_filter.cpython-310.pyc
+byte-compiling /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/pointcloud_object_detector.py to pointcloud_object_detector.cpython-310.pyc
+byte-compiling /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/model/model_trt.py to model_trt.cpython-310.pyc
+byte-compiling /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/model/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/rain/pointpillars_ws/install/rain_det/share/ament_index
+creating /home/rain/pointpillars_ws/install/rain_det/share/ament_index/resource_index
+creating /home/rain/pointpillars_ws/install/rain_det/share/ament_index/resource_index/packages
+copying resource/rain_det -> /home/rain/pointpillars_ws/install/rain_det/share/ament_index/resource_index/packages
+copying package.xml -> /home/rain/pointpillars_ws/install/rain_det/share/rain_det
+creating /home/rain/pointpillars_ws/install/rain_det/share/rain_det/launch
+copying launch/pointcloud_object_detect.launch.py -> /home/rain/pointpillars_ws/install/rain_det/share/rain_det/launch
+creating /home/rain/pointpillars_ws/install/rain_det/share/rain_det/param
+copying param/rain_det_param.yaml -> /home/rain/pointpillars_ws/install/rain_det/share/rain_det/param
+running install_egg_info
+Copying ../../build/rain_det/rain_det.egg-info to /home/rain/pointpillars_ws/install/rain_det/lib/python3.10/site-packages/rain_det-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/rain/pointpillars_ws/build/rain_det/install.log'

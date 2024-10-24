@@ -1,0 +1,6 @@
+source;share/rain_det/hook/pythonpath.ps1
+source;share/rain_det/hook/pythonpath.dsv
+source;share/rain_det/hook/pythonpath.sh
+source;share/rain_det/hook/ament_prefix_path.ps1
+source;share/rain_det/hook/ament_prefix_path.dsv
+source;share/rain_det/hook/ament_prefix_path.sh

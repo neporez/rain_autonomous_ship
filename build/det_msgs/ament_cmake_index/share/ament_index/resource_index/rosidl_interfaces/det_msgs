@@ -1,0 +1,4 @@
+msg/ClusteredDetectedObjects.idl
+msg/ClusteredDetectedObjects.msg
+msg/DetectedObjects.idl
+msg/DetectedObjects.msg
