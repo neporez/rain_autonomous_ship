@@ -45,7 +45,7 @@ class LaserScanMap(Node):
             self.pose_callback,
             10)
         
-        self.laserscan_pub = self.create_publisher(LaserScan, '/rain/project_autonomous_ship/map_2d', 10)
+        self.laserscan_pub = self.create_publisher(LaserScan, '/rain/autonomous_ship/map_2d', 10)
     
         
         self.current_pose = None

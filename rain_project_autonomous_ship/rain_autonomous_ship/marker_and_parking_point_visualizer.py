@@ -12,7 +12,7 @@ from visualization_msgs.msg import Marker, MarkerArray
 from transforms3d.euler import euler2quat, quat2euler
 from transforms3d.quaternions import qmult
 
-from rain_project_autonomous_ship.util.parking_point_generator import ParkingPointGenerator
+from rain_autonomous_ship.util.parking_point_generator import ParkingPointGenerator
 
 
 import math
@@ -39,10 +39,10 @@ class MarkerAndParkingPointVisualizer(Node):
 
         self.clustered_detected_objects_subscription = self.create_subscription(ClusteredDetectedObjects, '/rain/det/clustered_detected_objects',self.clustered_detected_objects_callback,10)
         
-        self.clustered_bbox_publisher = self.create_publisher(MarkerArray, '/rain/project_autonomous_ship/clustered_bounding_boxes', 10)
+        self.clustered_bbox_publisher = self.create_publisher(MarkerArray, '/rain/autonomous_ship/clustered_bounding_boxes', 10)
 
-        self.parking_points_publisher = self.create_publisher(MarkerArray, '/rain/project_autonomous_ship/parking_points',10)
-        self.goal_point_pose_publisher = self.create_publisher(PoseStamped, '/rain/project_autonomous_ship/target_point', 10)
+        self.parking_points_publisher = self.create_publisher(MarkerArray, '/rain/autonomous_ship/parking_points',10)
+        self.goal_point_pose_publisher = self.create_publisher(PoseStamped, '/rain/autonomous_ship/target_point', 10)
 
         self.tf_broadcaster = tf2_ros.TransformBroadcaster(self)
         self.markers_publish_timer = self.create_timer(0.1, self.publish_markers)

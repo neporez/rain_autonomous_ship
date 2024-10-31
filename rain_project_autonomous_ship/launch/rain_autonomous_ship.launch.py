@@ -12,9 +12,9 @@ from launch.actions import DeclareLaunchArgument
 def generate_launch_description():
     
     pointpillars_params = os.path.join(
-        get_package_share_directory('rain_project_autonomous_ship'),
+        get_package_share_directory('rain_autonomous_ship'),
         'param',
-        'rain_project_autonomous_ship_param.yaml'
+        'rain_autonomous_ship_param.yaml'
     )
 
     params_declare = DeclareLaunchArgument(
@@ -45,14 +45,14 @@ def generate_launch_description():
     )
 
     marker_and_parking_point_visualizer_node = Node(
-        package='rain_project_autonomous_ship',
+        package='rain_autonomous_ship',
         executable='marker_and_parking_point_visualizer',
         name='marker_and_parking_point_visualizer',
         parameters=[LaunchConfiguration('params_file')]
     )
 
     laserscan_map_node = Node(
-        package='rain_project_autonomous_ship',
+        package='rain_autonomous_ship',
         executable='laserscan_map',
         name='laserscan_map',
         parameters=[LaunchConfiguration('params_file')]

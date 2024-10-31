@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 import os
 from glob import glob
-package_name = 'rain_project_autonomous_ship'
+package_name = 'rain_autonomous_ship'
 
 setup(
     name=package_name,
@@ -23,8 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'laserscan_map = rain_project_autonomous_ship.laserscan_map:main',
-            'marker_and_parking_point_visualizer = rain_project_autonomous_ship.marker_and_parking_point_visualizer:main'
+            'laserscan_map = rain_autonomous_ship.laserscan_map:main',
+            'marker_and_parking_point_visualizer = rain_autonomous_ship.marker_and_parking_point_visualizer:main'
         ],
     },
 )
