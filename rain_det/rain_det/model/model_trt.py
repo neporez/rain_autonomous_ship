@@ -7,11 +7,12 @@ from collections import deque
 import tensorrt as trt
 import pycuda.driver as cuda
 import math
+import os
 
 
 from rain_det.util.iou_3d_utils import calculate_3d_iou
 
-model_path = "/home/rain/PointPillars"
+model_path = os.environ["HOME"]+"/PointPillars"
 
 sys.path.append(model_path)
 
