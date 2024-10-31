@@ -29,7 +29,7 @@ class PointCloudFilter(Node):
             self.callback,
             10)
         
-        self.publisher = self.create_publisher(PointCloud2, '/rain/project_autonomous_ship/filtered_pointcloud', 10)
+        self.publisher = self.create_publisher(PointCloud2, '/rain/autonomous_ship/filtered_pointcloud', 10)
 
     def pointcloud2_to_array(self, cloud_msg):
         pc = pc2.read_points(cloud_msg, field_names=("x", "y", "z", "intensity"), skip_nans=True)
