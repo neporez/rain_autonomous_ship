@@ -23,7 +23,7 @@ class PointCloudObjectDetector(Node):
             namespace='',
             parameters=[
                 ('trt_engine', '/home/rain/PointPillars/pretrained/model_0816.trt'),
-                ('pointcloud_topic', '/rain/project_autonomous_ship/filtered_pointcloud'),
+                ('pointcloud_topic', '/rain/autonomous_ship/filtered_pointcloud'),
                 ('class_num', 2),
                 ('pcd_limit_range', [-69.12, -69.12, -3.0, 69.12, 69.12, 5.0]),
                 ('voxel_size' , [0.32,0.32, 8.0]),
