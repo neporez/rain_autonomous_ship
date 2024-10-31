@@ -1,8 +1,8 @@
-# Jetson Series Setup and ROS2 Installation Guide
-
-## Jetpack 6.0 (L4T 36.3.0) Setup
-
+# Autonomous Ship Package Installation Guide
+## 1. Jetson AGX Orin and Jetson Orin Nano Setup
 ```bash
+# Jetpack 6.0 (L4T 36.3.0) Setup
+
 sudo apt update
 sudo apt upgrade
 sudo apt-get install python3-pip
@@ -18,18 +18,9 @@ sudo reboot
 
 # Run jtop to monitor system stats
 jtop
-
-# Maximize system performance
-sudo jetson_clocks
 ```
 
-## Install Chromium Browser
-
-```bash
-sudo apt install chromium-browser
-```
-
-## ROS2 Humble Installation
+## 2. ROS2 Humble Installation
 
 ```bash
 # Locale settings
@@ -64,7 +55,7 @@ sudo apt install ros-dev-tools
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 ```
 
-## Jetson Series PyTorch + TensorRT Installation
+## 3. PyTorch + TensorRT Installation
 
 Refer to NVIDIA forum [here](https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048)
 
@@ -89,7 +80,7 @@ sudo apt install cuda-toolkit-12-2
 sudo apt install python3-libnvinfer-dev
 ```
 
-## Autonomous Ship Package Installation
+## 4. Autonomous Ship Package Installation
 
 ```bash
 # Create and initialize NDT workspace
@@ -97,20 +88,20 @@ mkdir -p ndt_ws/src
 cd ndt_ws/src
 git clone --recursive https://github.com/rsasaki0109/lidarslam_ros2
 
-# Navigate to workspace root
-cd ..
+# Dependencies install
+cd ~/ndt_ws
 rosdep init
 rosdep update
 rosdep install --from-paths src --ignore-src -r -y
 
-# Build the workspace
+# Build the NDT workspace
 colcon build --symlink-install --executor sequential --cmake-args -DCMAKE_BUILD_TYPE=Release
 
 # Source NDT workspace setup script
 echo "source ~/ndt_ws/install/setup.bash" >> ~/.bashrc
 
 # Create and initialize Autonomous Ship workspace
-cd ..
+cd ~
 mkdir -p autonomous_ship_ws/src
 cd autonomous_ship_ws/src
 
@@ -121,7 +112,7 @@ mv Andong_PointPillars-main/* . && rm -rf Andong_PointPillars-main
 mv PointPillars ~ && mv migration ~
 
 # Build Autonomous Ship workspace
-cd .. && colcon build
+cd autonomous_ship_ws && colcon build
 
 echo "source ~/autonomous_ship_ws/install/setup.bash" >> ~/.bashrc
 
@@ -129,7 +120,7 @@ echo "source ~/autonomous_ship_ws/install/setup.bash" >> ~/.bashrc
 cd ~/PointPillars/ops && python setup.py develop --user
 
 # Install Python dependencies for PointPillars
-cd ..
+cd ~/PointPillars
 pip install -r requirements.txt
 
 # Convert PyTorch model to ONNX and TensorRT
@@ -151,4 +142,4 @@ cd ~/ndt_ws && colcon build
 
 ---
 
-This guide covers the basic setup steps for installing Jetson utilities, ROS2 Humble, and Autonomous Ship packages. You can now upload this Markdown file to GitHub for easy sharing. Let me know if you need further assistance or modifications!
+
