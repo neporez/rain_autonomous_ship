@@ -13,16 +13,16 @@ from model import PointPillarsCore
 
 def main(args):
     CLASSES = {
-        'Pedestrian': 0, 
-        'Cyclist': 1, 
-        'Car': 2
+        'boat': 0,
+        'frontline' : 1,
         }
 
     if not args.no_cuda:
-        model = PointPillarsCore(nclasses=len(CLASSES)).cuda()
+        model = PointPillarsCore(nclasses=len(CLASSES),point_cloud_range=[-69.12, -69.12, -3, 69.12, 69.12, 5],voxel_size=[0.32,0.32,8]).cuda()
+        model.backbone.reparameterize()
         model.load_state_dict(torch.load(args.ckpt))
     else:
-        model = PointPillarsCore(nclasses=len(CLASSES))
+        model = PointPillarsCore(nclasses=len(CLASSES),point_cloud_range=[-69.12, -69.12, -3, 69.12, 69.12, 5],voxel_size=[0.32,0.32,8])
         model.load_state_dict(
             torch.load(args.ckpt, map_location=torch.device('cpu')))
     model.eval()
@@ -30,10 +30,10 @@ def main(args):
 
     print('start to transform pytorch model to onnx')
     max_pillars = 40000
-    pillars = torch.randn(max_pillars, 32, 4)
+    pillars = torch.randn(max_pillars, 16, 4)
     coors_batch = torch.randint(0, 216, (max_pillars, 4))
     coors_batch[:, 0] = 0
-    npoints_per_pillar = torch.randint(0, 32, (max_pillars, ))
+    npoints_per_pillar = torch.randint(0, 16, (max_pillars, ))
     npoints_per_pillar = npoints_per_pillar.to(torch.int32)
     if not args.no_cuda:
         pillars = pillars.cuda()
