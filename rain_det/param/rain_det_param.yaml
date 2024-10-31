@@ -15,7 +15,7 @@
     - 0.32
     - 0.32
     - 8.0
-    pointcloud_topic: /rain/project_autonomous_ship/filtered_pointcloud # PointPillars Model에 들어가는 Pointcloud2 topic name
+    pointcloud_topic: /rain/autonomous_ship/filtered_pointcloud # PointPillars Model에 들어가는 Pointcloud2 topic name
     trt_engine: /home/rain/PointPillars/pretrained/model_0816.trt # TensorRT engine path
     inference_time_check: False # 추론 시간 확인
 
