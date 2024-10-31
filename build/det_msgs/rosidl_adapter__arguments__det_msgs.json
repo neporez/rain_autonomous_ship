@@ -1,7 +1,0 @@
-{
-  "package_name": "det_msgs",
-  "non_idl_tuples": [
-    "/home/rain/pointpillars_ws/src/det_msgs:msg/DetectedObjects.msg",
-    "/home/rain/pointpillars_ws/src/det_msgs:msg/ClusteredDetectedObjects.msg"
-  ]
-}
