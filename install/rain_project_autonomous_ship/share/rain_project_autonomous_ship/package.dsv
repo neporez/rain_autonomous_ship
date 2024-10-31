@@ -1,6 +1,0 @@
-source;share/rain_project_autonomous_ship/hook/pythonpath.ps1
-source;share/rain_project_autonomous_ship/hook/pythonpath.dsv
-source;share/rain_project_autonomous_ship/hook/pythonpath.sh
-source;share/rain_project_autonomous_ship/hook/ament_prefix_path.ps1
-source;share/rain_project_autonomous_ship/hook/ament_prefix_path.dsv
-source;share/rain_project_autonomous_ship/hook/ament_prefix_path.sh
