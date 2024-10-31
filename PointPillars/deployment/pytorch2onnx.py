@@ -19,7 +19,6 @@ def main(args):
 
     if not args.no_cuda:
         model = PointPillarsCore(nclasses=len(CLASSES),point_cloud_range=[-69.12, -69.12, -3, 69.12, 69.12, 5],voxel_size=[0.32,0.32,8]).cuda()
-        model.backbone.reparameterize()
         model.load_state_dict(torch.load(args.ckpt))
     else:
         model = PointPillarsCore(nclasses=len(CLASSES),point_cloud_range=[-69.12, -69.12, -3, 69.12, 69.12, 5],voxel_size=[0.32,0.32,8])
