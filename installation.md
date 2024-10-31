@@ -118,7 +118,7 @@ mkdir -p autonomous_ship_ws/src
 cd autonomous_ship_ws/src
 
 # Download and extract PointPillars package
-wget https://github.com/neporez/Andong_PointPillars/archive/refs/heads/main.zip
+wget https://github.com/neporez/rain_autonomous_ship/archive/refs/heads/main.zip
 unzip main.zip && rm -rf main.zip
 mv Andong_PointPillars-main/* . && rm -rf Andong_PointPillars-main
 mv PointPillars ~ && mv migration ~
