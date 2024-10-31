@@ -1,4 +1,16 @@
 # Autonomous Ship Package Installation Guide
+
+This guide provides step-by-step instructions for setting up a Jetson device with necessary packages for autonomous ship package, including system updates, Jetson configurations, ROS2 Humble installation, PyTorch with TensorRT, and specific package installations.
+
+---
+## Table of Contents
+
+- [1. Jetson AGX Orin and Jetson Orin Nano Setup](#1-jetson-agx-orin-and-jetson-orin-nano-setup)
+- [2. ROS2 Humble Installation](#2-ros2-humble-installation)
+- [3. PyTorch and TensorRT Installation](#3-pytorch-and-tensorrt-installation)
+- [4. Autonomous Ship Package Installation](#4-autonomous-ship-package-installation)
+
+---
 ## 1. Jetson AGX Orin and Jetson Orin Nano Setup
 ```bash
 # Jetpack 6.0 (L4T 36.3.0) Setup
@@ -55,7 +67,7 @@ sudo apt install ros-dev-tools
 echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 ```
 
-## 3. PyTorch + TensorRT Installation
+## 3. PyTorch and TensorRT Installation
 
 Refer to NVIDIA forum [here](https://forums.developer.nvidia.com/t/pytorch-for-jetson/72048)
 
