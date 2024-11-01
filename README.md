@@ -90,6 +90,7 @@ pip install torchvision-0.18.0a0+6043bc2-cp310-cp310-linux_aarch64.whl
 # Install CUDA Toolkit and TensorRT
 sudo apt install cuda-toolkit-12-2
 sudo apt install python3-libnvinfer-dev
+sudo apt install tensorrt
 ```
 
 ## 4. Autonomous Ship Package Installation
